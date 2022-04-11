@@ -1,0 +1,64 @@
+﻿Application.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+Application.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function main
+Application.obj : error LNK2019: unresolved external symbol __imp_glewGetString referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function main
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetWindowSize referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetWindowAttrib referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetInputMode referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetMouseButton referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetCursorPos referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwCreateStandardCursor referenced in function "bool __cdecl ImGui_ImplGlfwGL3_Init(struct GLFWwindow *,bool,char const *)" (?ImGui_ImplGlfwGL3_Init@@YA_NPEAUGLFWwindow@@_NPEBD@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwDestroyCursor referenced in function "void __cdecl ImGui_ImplGlfwGL3_Shutdown(void)" (?ImGui_ImplGlfwGL3_Shutdown@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetCursor referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPEAUGLFWwindow@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetCharCallback referenced in function "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPEAUGLFWwindow@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPEAUGLFWwindow@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetScrollCallback referenced in function "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPEAUGLFWwindow@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetJoystickAxes referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetJoystickButtons referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwSetClipboardString referenced in function "void __cdecl ImGui_ImplGlfwGL3_SetClipboardText(void *,char const *)" (?ImGui_ImplGlfwGL3_SetClipboardText@@YAXPEAXPEBD@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetClipboardString referenced in function "char const * __cdecl ImGui_ImplGlfwGL3_GetClipboardText(void *)" (?ImGui_ImplGlfwGL3_GetClipboardText@@YAPEBDPEAX@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl ImGui_ImplGlfwGL3_NewFrame(void)" (?ImGui_ImplGlfwGL3_NewFrame@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol glfwGetWin32Window referenced in function "bool __cdecl ImGui_ImplGlfwGL3_Init(struct GLFWwindow *,bool,char const *)" (?ImGui_ImplGlfwGL3_Init@@YA_NPEAUGLFWwindow@@_NPEBD@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBlendEquation referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBlendFuncSeparate referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewDeleteBuffers referenced in function "void __cdecl ImGui_ImplGlfwGL3_InvalidateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_InvalidateDeviceObjects@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBlendEquationSeparate referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "void __cdecl ImGui_ImplGlfwGL3_InvalidateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_InvalidateDeviceObjects@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "void __cdecl ImGui_ImplGlfwGL3_InvalidateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_InvalidateDeviceObjects@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewDetachShader referenced in function "void __cdecl ImGui_ImplGlfwGL3_InvalidateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_InvalidateDeviceObjects@@YAXXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewGetAttribLocation referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBindSampler referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "bool __cdecl ImGui_ImplGlfwGL3_CreateDeviceObjects(void)" (?ImGui_ImplGlfwGL3_CreateDeviceObjects@@YA_NXZ)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+imgui_impl_glfw_gl3.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "void __cdecl ImGui_ImplGlfwGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplGlfwGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)
+C:\dev\minecraft_opengl\dependencies\GLEW\lib\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\dev\minecraft_opengl\dependencies\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\dev\minecraft_opengl\x64\Debug\minecraft_opengl.exe : fatal error LNK1120: 61 unresolved externals
