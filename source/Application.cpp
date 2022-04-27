@@ -53,34 +53,24 @@ int main(void)
     std::cout << "Status: Using GLEW " << glewGetString(GLEW_VERSION) << std::endl;
     std::cout << "GL Version: " << glGetString(GL_VERSION) << std::endl;
 
-    Block block(0);
+    Block grass(0);
+    Block cobble(1);
+    Block sand(2);
 
     VertexArray vao;
-    VertexBuffer vb(block.getPosition(), block.getPositionSize());
+    VertexBuffer vb(grass.getPosition(), grass.getPositionSize());
 
     VertexBufferLayout layout;
     layout.Push<float>(3);
 
     vao.AddBuffer(vb, layout);
-    IndexBuffer ib(block.getIndices(), block.getIndicesSize());
-
-    
+    IndexBuffer ib(grass.getIndices(), grass.getIndicesSize());
 
     Shader shader("res/shader_files/main.shader");
+    Texture texture((std::vector<std::string>&) grass.getPath());
+
     shader.Bind();
-
-    std::vector<std::string> texPath =
-    {
-        "res/textures/sand.png",
-        "res/textures/sand.png",
-        "res/textures/sand.png",
-        "res/textures/sand.png",
-        "res/textures/sand.png",
-        "res/textures/sand.png"
-    };
-
-    Texture texture(texPath);
-    texture.Bind();
+    texture.Bind(0);
     shader.SetUniform1i("uTexture", 0);
 
     vao.Unbind();
@@ -105,24 +95,29 @@ int main(void)
 
         renderer.Clear();
 
+        texture.Bind(0);
         shader.Bind();
-        texture.Bind();
 
         processInput(window, deltaTime);
 
         glm::mat4 camTick = camera.CamTick(window);
 
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 8; i++)
         {
-            for (int k = 0; k < 50; k++)
-            {
-                glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3((-i * 200), -300, (-k * 200)));
-                glm::mat4 mvp = camTick * model;
-                shader.SetUniformMat4f("uMVP", mvp);
-                renderer.Draw(vao, ib, shader);
+            for (int j = 0; j < 3; j++) {
+                for (int k = 0; k < 8; k++)
+                {
+                    glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3((-i * 100), (-j * 100) - 300, (-k * 100)));
+                    glm::mat4 mvp = camTick * model;
+                    shader.SetUniformMat4f("uMVP", mvp);
+
+                    if (glfwGetKey(window, GLFW_KEY_P) == GLFW_PRESS)
+                        Texture cobbleTexture((std::vector<std::string>&) cobble.getPath());
+
+                    renderer.Draw(vao, ib, shader);
+                }
             }
         }
-
         glfwSwapBuffers(window);
 
         glfwPollEvents();

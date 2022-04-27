@@ -2,7 +2,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <vector>
-
+#include <string>
 
 class Block
 {
@@ -10,15 +10,15 @@ private:
 	unsigned int _index;
 	float _positions[24] =
 	{
-		-100.0f, -100.0f, 100.0f,  //0
-		 100.0f, -100.0f, 100.0f,  //1
-		 100.0f,  100.0f, 100.0f,  //2
-		-100.0f,  100.0f, 100.0f,  //3
+		-50.0f, -50.0f, 50.0f,  //0
+		 50.0f, -50.0f, 50.0f,  //1
+		 50.0f,  50.0f, 50.0f,  //2
+		-50.0f,  50.0f, 50.0f,  //3
 
-		-100.0f, -100.0f,-100.0f,  //4
-		 100.0f, -100.0f,-100.0f,  //5
-		 100.0f,  100.0f,-100.0f,  //6
-		-100.0f,  100.0f,-100.0f	//7
+		-50.0f, -50.0f,-50.0f,  //4
+		 50.0f, -50.0f,-50.0f,  //5
+		 50.0f,  50.0f,-50.0f,  //6
+		-50.0f,  50.0f,-50.0f	//7
 	};
 
 
@@ -46,5 +46,6 @@ public:
 	inline unsigned int* getIndices()	  { return &_indices[0]; }
 	inline unsigned int getPositionSize() { return (24 * sizeof(float)); }
 	inline unsigned int getIndicesSize()  { return (36 * sizeof(int)); }
+	std::vector<std::string> getPath();
 };
 

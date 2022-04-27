@@ -15,14 +15,12 @@ void main()
 #shader fragment
 #version 330 core
 
-layout(location = 0) out vec4 color;
+layout(location = 0) out vec4 cubeTexture;
 
 in vec3 vTextureCoords;
-
 uniform samplerCube uTexture;
 
 void main()
 {
-	vec4 texColor = texture(uTexture, vTextureCoords);
-	color = texColor;
+	cubeTexture = texture(uTexture, vTextureCoords);
 }
